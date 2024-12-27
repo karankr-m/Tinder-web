@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .detailscontainer{
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.983));
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="w-full h-screen bg-black font-['helvetica_now_display']">
+        <div class="imagecontainer w-full h-screen relative">
+            <div class="maincard z-[3] w-full absolute h-screen ">
+                <img class="w-full h-full object-cover" src="" alt="">
+            </div>
+            <div class="incomingcard z-[2] w-full absolute h-screen ">https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D</div>
+        </div>
+        <div class="absolute top-0 left-0 z-[4] w-full h-screen flex flex-col justify-between">
+            <div class="navbar px-5 py-6  flex justify-between items-center text-white">
+                <div class="prflimg w-[3.5rem] h-[3.5rem] rounded-full overflow-hidden">
+                    <img class="w-full h-full object-cover" src="/photo_2024-12-25 01.16.16.jpeg" alt="">
+                </div>
+                <h3 class="text-2xl font-medium tracking-tighter">they liked you..❤️</h3>
+                <div class="chaticon relative flex items-center justify-center rounded-full w-[3.5rem] h-[3.5rem] bg-white/20">
+                    <i class="opacity-80 ri-chat-3-fill text-2xl"></i>
+                    <div class="badge absolute top-0 right-0 flex items-center justify-center w-5 h-5 bg-red-500 rounded-full">
+                        <h5 class="text-xs font-semibold">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="detaliscontainer w-full" >
+                <div class="details px-5 py-6 w-full">
+                    <div class="flex gap-3">
+                        <i class=" w-[1.6rem] h-[1.6rem] flex items-center justify-center font-semibold rounded-full bg-white ri-corner-left-up-line"></i>
+                        <h3 class="text-white">USA. california</h3>
+                    </div>
+                    <div class="flex gap-5 text-white mt-1">
+                        <h1 class="font-semibold tracking-tighter text-7xl" > Victoria</h1>
+                        <h1 class=" font- semibold tracking-tighter text-7xl opacity-60">20</h1>
+                    </div>
+                   <div class="tags flex gap-3 text-white mt-4">
+                    <div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
+                        <i class="text-sm ri-music-2-fill"></i>
+                        <h3 class="text-sm tracking-tight"> music</h3> 
+                    </div>
+                    <div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
+                        <i class="text-sm ri-music-2-fill"></i>
+                        <h3 class="text-sm tracking-tight"> music</h3>
+                   </div>
+                   <div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
+                    <i class="text-sm ri-music-2-fill"></i>
+                    <h3 class="text-sm tracking-tight"> music</h3>
+                </div>
+            </div>
+            <div class="bio text-white/80 mt-5" >
+                <h3 class="text-xl" >bio</h3>
+                <p class="text-lg mt-3" >believes in the power of love in all its forms. She finds joy in nurturing relationships and spreading 
+                kindness, always seeking to cultivate love and compassion in the world ❤️.</p>
+    
+            </div>
+            <div class="flex items-start mt-10 gap-1">
+                <button class="py-3 rounded-xl w-1/2 bg-white">
+                    <i class="text-3xl font-semibold ri-close-fill"></i>
+                </button>
+                <button class="py-3 rounded-xl w-1/2 bg-[#FC5149]" >
+                    <i class=" text-3xl font-semibold  text-white ri-heart-2-fill"></i>
+                </button>
+            </div>
+            </div>
+            
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
